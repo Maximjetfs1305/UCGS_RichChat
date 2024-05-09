@@ -1,19 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using Rocket.API;
 using Rocket.Core.Plugins;
-using Rocket.API.Extensions;
-using Rocket.Core.Logging;
-using Rocket.Core;
 using Rocket.Unturned.Player;
-using Rocket.Unturned.Events;
 using SDG.Unturned;
 using UnityEngine;
-using System.Runtime.CompilerServices;
-using System.Net.Sockets;
-using System.Runtime.Remoting.Messaging;
 
 namespace UCGS.RichChat
 {
@@ -36,7 +25,6 @@ namespace UCGS.RichChat
 
         protected override void Unload()
         {
-            //Сюда добавить инфу об выгрузке плагина
             Instance = null;
             Config = null;
             ChatManager.onChatted -= ClientChatted;
