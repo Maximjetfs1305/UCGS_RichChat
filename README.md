@@ -8,7 +8,7 @@
 for example chat.vip
 
 [UA] Щоб застосувати певну групу до гравця, потрібно додати її в його права доступу chat."group name",
-наприкладchat.vip
+наприкладc hat.vip
 
 ![image](https://github.com/Maximjetfs1305/UCGS_RichChat/assets/147804958/d497338b-3406-4c25-8ca9-41d11dd0f137)
 
